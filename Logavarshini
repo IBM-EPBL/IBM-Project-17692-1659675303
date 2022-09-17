@@ -1,0 +1,47 @@
+# Assignment-1
+Sample homepage using html and css
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOME|WEBPAGE</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <p style="background-image: url('moon.jpeg');"></p>
+    </head>
+    <style>
+        body {
+          background-image: url('moon.jpeg');
+        }
+        </style>
+    <body>
+        <section id="banner">
+            <div class="banner-content">
+                <h1>ABOUT ME</h1>
+                <p>I am P.LOGAVARSHINI .I am a final year student of B.E Computer Science and Engineering.
+                    I reside at Avadi. My hobbies are listening to songs and craft making.
+                    My strength is that I am a hardworker, easily involving with people.
+                    I wish to travel around places, I fascinate travelling.</p>
+            </div>
+        </section>
+        <div class="bg">
+            <form>          
+                <div class="name">
+                    <label>Name:</label>
+                    <input type="Name" placeholder="Enter Name">
+                </div>
+                <div class="email">
+                    <label>Email:</label>
+                    <input type="email" placeholder="Enter Email">
+                </div>
+                <div class="password">
+                    <label>password:</label>
+                    <input type="password" placeholder="Enter Password">
+                </div>
+                <div class="btn">
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Cancel">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
