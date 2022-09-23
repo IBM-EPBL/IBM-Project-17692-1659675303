@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	font-family:'Roboto', sans-serif;
+}
+#banner{
+	height:100vh;
+	background:url(../images/3.jfif) no-repeat center;
+	background-size:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#banner .banner-content{
+	width:60%;
+	text-align:center;
+}
+#banner .banner-content h1{
+	font-size:50px;
+	margin-bottom:20px;
+	text-shadow:2px 3px 5px black;
+	color:#8b0000;
+}
+#banner .banner-content p{
+	font-size:30px;
+	text-align:justify;
+	text-shadow:2px 3px 5px black;
+	line-height:40px;
+	color:#f0fff0;
+}
+.bg{
+	background:#faf0e6;
+}
+.name input, .email input, .password input{
+	display:block;
+	margin-bottom:10px;
+	padding:15px;
+	outline:none;
+	border:1px solid red;
+}
+.name input:focus, .email input:focus, .password input:focus{
+	border:none;
+	outline:none;
+	border-bottom:2px solid red;
+}
+input[type="name"]:focus{
+	background:black;
+	color:white;
+}
+input[type="email"]:focus{
+	background:black;
+	color:white;
+}
+input[type="password"]:focus{
+	background:black;
+	color:white;
+}
+form{
+	background:#dda0dd;
+	padding:50px 50px;
+	width:350px;
+	margin:auto;
+	border-radius:10px;
+	color:white;
+}
+form:hover{
+	box-shadow:0 0 10px #8b0000;
+	
+}
+.btn input{
+	padding:10px 20px;
+	background:red;
+	color:black;
+	cursor:pointer;
+	font-weight:bold;
+	border:none;
+	border-radius:10px;
+}
