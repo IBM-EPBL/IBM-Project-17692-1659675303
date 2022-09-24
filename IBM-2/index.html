@@ -1,0 +1,59 @@
+<html>
+<head>
+      
+     
+     <link rel="stylesheet"  href="style.css"> 
+</head>
+<body>
+  <div class="container">
+        <div class="navbar">
+             <img src="a2images/logo.png" class="logo">
+             <nav >
+		     <ul id="menuList">
+    		       <li><a href="">iphone versions</a></li>
+    		       <li><a href="">Accessories</a></li>
+    		       <li><a href="">Media</a></li>
+    		       <li><a href="">Others</a></li>
+		     </ul>
+	         </nav>
+              <img src="a2images/menu.png" class="menu-icon" 
+              onclick="togglemenu()">
+        </div>
+	<div class="row">
+		<div class="col-1">
+			<h2>APPLE I-PHONE<br>latest version</h2>
+			<h3>More Customized Features </h3>
+			<p>(Compatible/Generic)</p>
+			<h4>$90.50</h4>
+                  <button type="button">Buy Now<img src="a2images/arrow.png">
+                  </button>
+		</div>
+		<div class="col-2">
+                <img src="a2images/controller.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                  <img src="a2images/add.png">
+                  <p><small>Add to cart</small></p>
+                </div>
+             </div>
+            </div>
+	 
+  </div>
+
+  <script>
+     var menuList = document.getElementById("menuList");
+     menuList.style.maxHeight = "0px";
+     function togglemenu(){
+          if(menuList.style.maxHeight == "0px")
+                {
+                       menuList.style.maxHeight = "130px";
+                }
+          else
+                {
+                       menuList.style.maxHeight = "0px";
+                }
+      }
+   </script>
+
+</body>
+</html>
