@@ -1,0 +1,110 @@
+body{
+		overflow-x: hidden;
+		background-color: white;
+			
+	}
+	img{
+		width:110%;
+		margin: -30px;
+		height:160px;
+	}
+	.Accountinfo, .persondet, .persondet2, .persondet3, .persondet4, .persondet5, .skillsinfo, .achieveinfo, #declaration{
+		margin-left: 50px;
+	}
+    
+	.regr1col1 label, .regr1col2 label, .regr1col3 label, .regr2col1 label, .regr3col1 label, .regr4col1 label, .regr5col1 label, .gradetcol1 label, .gradetcol2 label{
+		color: #02616e;
+		font-size: 14px;
+		font-weight: 700;
+	}
+    .persondet6{
+        margin-left: 200px;
+    }
+	h3, h4, label{
+		color: black;
+	}
+	h4{
+		margin-top: -29px;
+		margin-left: 23px;
+		font-size: 20px;
+	}
+	.verbor{
+		background-color: #04aec4;
+		width: 13px;
+		border-radius: 0 13px 0 13px;
+		height: 40px;
+	}
+    #requi{
+        color: red;
+    }
+    #menu ul li{
+        color: #04aec4;
+        cursor: pointer;
+        float: left;
+        margin-left: 60px;
+               
+    }
+
+    #menu ul{
+        margin-left: 425px;
+    }
+    #button1{
+        margin-top: 80px;
+        margin-bottom: -200px;
+    }
+    #button, .addskill, #button2, .fnlbtn{
+        border: none;
+        color: white;
+        padding: 7px 20px;
+        border-radius: 13.5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        outline: none;
+        margin-bottom: 30px;
+        background-color: #04aec4;
+        cursor: pointer;
+        
+    }
+    #button1:hover, #button2:hover, .fnlbtn: hover{
+        opacity: 0.5;
+    }
+	select{
+		outline: none;
+		border: none;
+		padding-top: 15px;
+	}
+
+	input{
+		padding-top: 10px;
+		border: none;
+		outline: none;
+		color: black;
+		width: 300px;
+        border-radius: 6px 6px 0 0;
+        background-color: whitesmoke;
+		border-bottom-style: solid;
+		border-width: 1px;
+	}
+	 ::placeholder{
+	 	color: grey;
+	 	font-style: italic;
+	 	font-size: 14px;
+        padding-left: 8px;
+	 }
+      ::-webkit-file-upload-button{
+        border: none;
+        color: white;
+        padding: 7px 20px;
+        border-radius: 13.5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        outline: none;
+        margin-bottom: 30px;
+        background-color: #04aec4;
+        cursor: pointer;
+
+    }
